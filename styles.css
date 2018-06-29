@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	font-family: 'Orbitron',Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	color: rgb(252, 22, 30);
+	line-height: 1.6;
+
+}
+#landing{
+	background-image: url("landing.jpg");
+	background-size: cover;
+	background-position:center;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+	padding:0 20px;
+	
+}
+#landing h1{
+	font-size: 50px;
+	line-height: 1.2;
+	text-shadow: 3px 5px rgb(5,5,5,0.5);
+
+}
+#landing p{
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color:rgb(255,255,255,0.8);
+	text-shadow: 5px 5px rgb(5,5,5);
+}
+#landing .button{
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	border: rgb(237, 7, 26) 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	
+}
+#landing .button:hover{
+	background:rgb(5,5,5);
+	color:rgb(255,255,255);
+}
+
+/*About section*/
+#section1{
+	background-image: url("pixelsblue.jpg");
+	height:100px;
+	font-size: 17px;
+	padding:150px 0px;
+	color:rgb(249,249,249);
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border: rgb(5,5,5) solid 5px;
+
+}
+#section1 h1 {
+	color:rgb(237, 7, 26);
+	font-size: 50px;
+	text-decoration: underline;
+	text-shadow: 2px 2px rgb(5,5,5);
+}
+#section1 h4{
+	color:rgb(255,255,255);
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-shadow: 5px 5px rgb(5,5,5);
+
+}
+#section1 a{
+	color:red;
+	text-decoration: none;
+}
+
+/*navigation bar*/
+#navbar {
+    background-color:rgb(5,5,5,0.8) ; 
+    position: fixed; 
+    top: 0px; 
+    width: 100%; 
+    /*transition: top 0.5s;*/ 
+}
+
+#navbar a {
+    /*float: left;*/
+    display: inline-block;
+    font-weight: bold;
+  /*  width:50px;
+    height: 50px;*/
+    color: rgb(232,2,17);
+    text-align: center;
+    margin:1%;
+    /*padding: 15px;*/
+    /*padding-left: 10%;*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+
+/*projects*/
+.style1 {
+    position:relative;
+    width:33.3%; 
+   	height:300px;
+    overflow:hidden;
+    float:left;
+    margin-right:0px;
+    background-color:rgba(5,5,5);
+}
+
+.style1 p,.style1 h2 {
+    color:#fff;
+    padding:0px;
+    left:10px;
+    top:20px;
+    position:relative
+}
+.style1 h3 {
+    font-size:20px;
+    line-height:50px;
+    margin:0;
+    padding-left: 10px;
+    }
+.effect img {
+    position:absolute;
+    margin:-20px 0px;
+    right:0;
+    top:0;
+    cursor:pointer;
+    -webkit-transition:top .8s ease-in-out,right .8s ease-in-out;
+    -moz-transition:top .8s ease-in-out,right .8s ease-in-out;
+    -o-transition:top .8s ease-in-out,right .8s ease-in-out;
+     transition:top .8 ease-in-out;
+}
+.effect img.top:hover {
+    top:-330px;
+    right:-430px;
+    padding-bottom:200px;
+    padding-left:300px
+}
+/*footer*/
+#footer{
+	background-color: rgb(5,5,5,0.8);
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	/*transition: bottom 0.5s;*/
+}
+i{
+	color: rgb(232,2,17);
+	font-size: 40px;
+	width: 15%;
+
+}
