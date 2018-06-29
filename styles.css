@@ -95,7 +95,7 @@ body{
 #navbar a {
     /*float: left;*/
     display: inline-block;
-    font-weight: bold;
+    /*font-weight: bold;*/
   /*  width:50px;
     height: 50px;*/
     color: rgb(232,2,17);
